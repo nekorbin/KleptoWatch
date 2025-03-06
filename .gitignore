@@ -1,0 +1,28 @@
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+*.egg-info/
+Pipfile
+Pipfile.lock
+
+# Ignore JSON data backups (except the latest)
+legislative_data/**/*.json
+!legislative_data/**/legislation_*.json
+!legislative_data/**/changes_*.json
+
+# Ignore large log files and temporary debug outputs
+logs/
+*.log
+debug.log
+*.bak
+
+# Ignore system-generated files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

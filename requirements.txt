@@ -1,0 +1,4 @@
+requests  # For fetching data from the API
+gitpython  # To interact with Git for diffs
+schedule  # For automating script execution at set intervals
+pytz  # Handles timezone-aware timestamps
